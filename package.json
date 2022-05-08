@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "npx vite dev --port 8080",
-    "database": "npx json-server ./data/db.json --port 3000",
+    "database": "npx json-server ./data/db.json",
     "shapper": "npx shapper-proxy serve --port 9000"
   },
   "keywords": [],
